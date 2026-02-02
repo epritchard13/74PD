@@ -18,8 +18,16 @@
     (property "Sheetfile" "Load_Switch.kicad_sch" (at 88.9 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "LSW_OUT" output (at 114.3 40.005 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 16a3e9d3-4653-4979-be8c-53f76ea062df)
+    )
+    (pin "LSW_IN" input (at 88.9 40.005 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b0764bfc-b2dd-4829-ad5c-6e51332cd532)
+    )
     (instances
-      (project "74_series_UPD"
+      (project "PD Mainboard"
         (path "/9702ea92-4279-4d05-9e00-16f440ea80dd" (page "2"))
       )
     )
