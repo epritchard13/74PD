@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9702ea92-4279-4d05-9e00-16f440ea80dd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 38.1) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 39ec7bc3-e6a8-4aec-9f1c-b7b1e611246e)
+    (property "Sheetname" "Load_Switch" (at 88.9 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Load_Switch.kicad_sch" (at 88.9 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "74_series_UPD"
+        (path "/9702ea92-4279-4d05-9e00-16f440ea80dd" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
